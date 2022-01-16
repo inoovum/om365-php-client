@@ -1,0 +1,18 @@
+{
+  "description": "",
+  "type": "neos-package",
+  "name": "steinbauerit/om365client",
+  "require": {
+    "neos/flow": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SteinbauerIT\\OM365Client\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "SteinbauerIT.OM365Client"
+    }
+  }
+}
